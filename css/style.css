@@ -371,3 +371,52 @@
     text-decoration: none;
 }
 /* /Regions */
+
+/* Footer */
+footer .btn_footer{
+    color: #006aff;
+    font-weight: 600;
+}
+
+footer .btn_footer:hover{
+    color: white;
+    background-color: #006aff;
+    border: 1px solid #006aff;
+}
+
+.row .logo_small{
+    margin-bottom: 15px;
+}
+#footer_bottom .row ul li{
+    list-style: none;
+    color: #a6adbd;
+}
+
+.row .social_icon a{
+    font-size: 2em;
+    padding-right: 10px;
+    padding-bottom: 50px;
+}
+
+.row .social_icon a:hover{
+    color: white;
+}
+
+#footer_bottom .row ul li a{
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #a6adbd;
+    line-height: 2;
+}
+
+#footer_bottom .row ul li a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+#footer_bottom .row ul li.ms_bold{
+    color: white;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+/* /Footer */
