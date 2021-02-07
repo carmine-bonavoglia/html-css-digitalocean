@@ -420,3 +420,101 @@ footer .btn_footer:hover{
     font-weight: 600;
 }
 /* /Footer */
+
+/* Fixed SHark */
+.ms_shark{
+    position: fixed;
+    text-align: center;
+    bottom: 3%;
+    right: 1%;
+}
+
+.ms_shark_xs{
+    position: fixed;
+    text-align: center;
+    bottom: 3%;
+    left: 1%;
+}
+
+.shark_bg,
+.shark_bg_xs{
+    width: 70px;
+    padding: 10px 5px;
+    background-color: #006aff;
+    border-radius: 5px;
+}
+
+.ms_shark:hover{
+    cursor:pointer;
+}
+
+.ms_cloud{
+    background-color: white;
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    position: fixed;
+    text-align: center;
+    bottom: 1.8%;
+    right: 9.5%;
+}
+
+.ms_cloud_xs{
+    background-color: white;
+    width: 300px;
+    padding: 20px 10px;
+    border-radius: 5px;
+    font-weight: 600;
+    position: fixed;
+    text-align: center;
+    bottom: 13%;
+    left: 1%;
+}
+
+.fixed_fas{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    bottom: 5%;
+    right: 8.9%;
+}
+
+.fixed_fas_xs{
+    font-size: 30px;
+    color: white;
+    position: fixed;
+    bottom: 12%;
+    left: 4%;
+}
+
+.fixed_badge{
+    width: 30px;
+    height: 30px;
+    line-height: 24px;
+    background-color: red;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 3px solid white;
+    color: white;
+    position: fixed;
+    bottom: 8%;
+    right: 0.5%;
+}
+
+.fixed_badge_xs{
+    width: 30px;
+    height: 30px;
+    line-height: 24px;
+    background-color: red;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50%;
+    border: 3px solid white;
+    color: white;
+    position: fixed;
+    bottom: 8%;
+    left: 6.5%;
+}
+/* /Fixed Shark */

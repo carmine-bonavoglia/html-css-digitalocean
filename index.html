@@ -62,43 +62,410 @@
     </header>
     <!-- /Header -->
 
-        <!-- Jumbotron -->
-        <div class="ms_jumbotron m_70_top p_50_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-sm-7">
-                        <h1>Welcome to the developer cloud</h1>
-                        <h3>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel,
-                            predictable
-                            pricing, team accounts, and more.</h3>
+    <!-- Jumbotron -->
+    <div class="ms_jumbotron m_70_top p_50_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-7">
+                    <h1>Welcome to the developer cloud</h1>
+                    <h3>We make it simple to launch in the cloud and scale up as you grow – with an intuitive control panel,
+                        predictable
+                        pricing, team accounts, and more.</h3>
+                </div>
+                <div class="col-xs-12 col-sm-5">
+                    <div class="jumbo_login bg_white">
+                        <div class="row">
+                            <div class="col-xs-12">
+                                <h2 class="text-center color_blue">Deploy your app in seconds.</h2>
+                                <h2 class="text-center color_lblue display_block">Get started now.</h2>
+                            </div>
+                            <div class="col-xs-12">
+                                <form action="#">
+                                    <div class="m_bottom_10">
+                                        <input type="text" name="email" value="" placeholder="Email">
+                                    </div>
+                                    <div class="m_bottom_10">
+                                        <input type="password" name="password" value="" placeholder="Password">
+                                    </div>
+                                    <div class="m_bottom_10">
+                                        <input type="submit" value="Create your account"
+                                            class="btn btn-default btn_blue_opacity">
+                                    </div>
+                                    <div class="m_bottom_10">
+                                        <a class="btn btn-default google_signup"> Sign up with google</a>
+                                    </div>
+                                    <div class="m_bottom_10 text-center">
+                                        <p><small>By signing up you agree to the <a href="#" class="blue_color">Terms of
+                                                    Service</a>.</small></p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-xs-12 col-sm-5">
-                        <div class="jumbo_login bg_white">
-                            <div class="row">
-                                <div class="col-xs-12">
-                                    <h2 class="text-center color_blue">Deploy your app in seconds.</h2>
-                                    <h2 class="text-center color_lblue display_block">Get started now.</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /Jumbotron -->
+
+    <!-- Corpo Principale -->
+    <!-- Partners -->
+    <section id="partner" class="bg_lgrey p_20_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 text-center">
+                    <p class="ms_upper p_30_top_bottom">Innovative businesses trust digitalocean</p>
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/docker.svg" alt="#">
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/gitlab.svg" alt="#">
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/slack.svg" alt="#">
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/hashicorp.svg" alt="#">
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/wework.svg" alt="#">
+                </div>
+                <div class="col-xs-6 col-sm-2">
+                    <img class="img_partner" src="img/splunklogo.svg" alt="#">
+                </div>
+                <div class="col-xs-12 text-center p_30_top_bottom">
+                    <a href="#">View customers stories <i class="fas fa-chevron-right font_size"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Partners -->
+
+    <!-- Deploy -->
+    <section id="deploy">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 p_30_top_bottom text-center">
+                    <h2 class="h2_big color_blue">Deploy and scale seamlessly</h2>
+                    <p class="color_grey">Our optimized configuration process saves your team time when running and scaling
+                        distributed applications, AI &
+                        machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+                </div>
+                <div class="col-xs-12 col-sm-offset-1 col-sm-3 h_400 border_left">
+                    <p>Deploy</p>
+                    <p>Manage</p>
+                    <p>Secure</p>
+                    <p>Scale</p>
+                    <p>Monitor</p>
+                </div>
+                <div class="col-xs-12 col-sm-8">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/kublogoicon.svg" alt="Cube">
+                            <p class="fw_600">Kubernetes in minutes</p>
+                            <p><small>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and
+                                    location of your worker nodes.</small></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/dropletinboxicon.svg" alt="Droplet">
+                            <p class="fw_600">Flexible compute types</p>
+                            <p><small>With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can
+                                    choose the right infrastructure for
+                                    your workload.</small></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/featured-AP-icon.svg" alt="Featured">
+                            <p class="fw_600">App Platform</p>
+                            <p><small>Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll
+                                    handle the infrastructure, app
+                                    runtimes, and dependencies, so that you can push code to production in just a few
+                                    clicks.</small></p>
+                        </div>
+                        <div class="col-xs-12 col-sm-6 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/stacksplusicon.svg" alt="Stack">
+                            <p class="fw_600">1-Click App Marketplace</p>
+                            <p><small>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP,
+                                    Docker, and WordPress.</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Deploy -->
+
+    <!-- /Primo Slider -->
+    <section id="slider" class="bg_lgrey p_20_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 p_30_top_bottom text-center">
+                    <h2 class="h2_big color_blue">Designed for developers</h2>
+                    <p class="color_grey">Build more and spend less time managing your infrastructure with our easy-to-use
+                        control panel and API.</p>
+                </div>
+                <!-- Hidden XS  -->
+                <div class="hidden-xs">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="ms_slider">
+                            <i class="fas fa-chevron-left"></i>
+                            <img class="img_slider p_20_top_bottom" src="img/screenshot-create-droplet-12336b41.jpg" alt="">
+                            <i class="fas fa-chevron-right"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Hidden XS -->
+    
+                <!-- Visible XS -->
+                <div class="visible-xs-block">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <img class="img_slider_xs" src="img/screenshot-create-droplet-12336b41.jpg" alt="Slider Image">
+                    </div>
+                </div>
+                <!-- /Visible XS -->
+    
+                <div class="col-xs-12 text-center">
+                    <p class="text_slider">
+                        Create computer servers in 55 seconds or less.
+                    </p>
+                    <p class="circle_slider">
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Primo Slider -->
+
+    <!-- Features -->
+    <section id="feature" class="p_20_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 p_30_top_bottom text-center">
+                    <h2 class="h2_big color_blue">Built for business</h2>
+                </div>
+                <div class="col-xs-12">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-4 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/kublogoicon.svg" alt="Cube">
+                            <p class="fw_600">Reliable platform</p>
+                            <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with
+                                a 99.99% uptime SLA for
+                                all services.</p>
+                            <a href="#">Security <i class="fas fa-chevron-right font_size"></i></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/dropletinboxicon.svg" alt="Droplet">
+                            <p class="fw_600">Predictable pricing</p>
+                            <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat,
+                                industry-leading pricing
+                                structure.</p>
+                            <a href="#">Pricing <i class="fas fa-chevron-right font_size"></i></a>
+                        </div>
+                        <div class="col-xs-12 col-sm-4 p_15_top_bottom">
+                            <img class="m_bottom_10" src="img/featured-AP-icon.svg" alt="Featured">
+                            <p class="fw_600">World-class service</p>
+                            <p>Free around-the-clock technical support for all customers, with additional benefits for
+                                premium support subscribers.
+                                You’ll feel the love.</p>
+                            <a href="#">Support <i class="fas fa-chevron-right font_size"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /Features -->
+
+    <!-- Regions -->
+    <section id="regions" class="bg_gradient p_50_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="h2_big color_white text-center">Service your customers around the world from 12 regions.</h2>
+                </div>
+                <div class="col-xs-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row  border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">AMS2</p>
                                 </div>
-                                <div class="col-xs-12">
-                                    <form action="#">
-                                        <div class="m_bottom_10">
-                                            <input type="text" name="email" value="" placeholder="Email">
-                                        </div>
-                                        <div class="m_bottom_10">
-                                            <input type="password" name="password" value="" placeholder="Password">
-                                        </div>
-                                        <div class="m_bottom_10">
-                                            <input type="submit" value="Create your account"
-                                                class="btn btn-default btn_blue_opacity">
-                                        </div>
-                                        <div class="m_bottom_10">
-                                            <a class="btn btn-default google_signup"> Sign up with google</a>
-                                        </div>
-                                        <div class="m_bottom_10 text-center">
-                                            <p><small>By signing up you agree to the <a href="#" class="blue_color">Terms of
-                                                        Service</a>.</small></p>
-                                        </div>
-                                    </form>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">AMS3</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">BLR1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Bangalore, India</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">FRA1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Frankfurt, Germany</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">LON1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">London, UK</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row width_95">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">NYC1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">New York, USA</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-lg-6">
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row  border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">AMS2</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">AMS3</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Amsterdam, Netherlands</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">BLR1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Bangalore, India</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">FRA1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">Frankfurt, Germany</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row border_bottom">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">LON1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">London, UK</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-12">
+                            <div class="row width_95">
+                                <div class="col-xs-3">
+                                    <p class="upper_white">NYC1</p>
+                                </div>
+                                <div class="col-xs-6">
+                                    <p class="text_grey">New York, USA</p>
+                                </div>
+                                <div class="col-xs-3">
+                                    <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -106,528 +473,176 @@
                 </div>
             </div>
         </div>
-        <!-- /Jumbotron -->
+    </section>
+    
+    <!-- /Regions -->
 
-        <!-- Corpo Principale -->
-        <!-- Partners -->
-        <section id="partner" class="bg_lgrey p_20_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 text-center">
-                        <p class="ms_upper p_30_top_bottom">Innovative businesses trust digitalocean</p>
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/docker.svg" alt="#">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/gitlab.svg" alt="#">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/slack.svg" alt="#">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/hashicorp.svg" alt="#">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/wework.svg" alt="#">
-                    </div>
-                    <div class="col-xs-6 col-sm-2">
-                        <img class="img_partner" src="img/splunklogo.svg" alt="#">
-                    </div>
-                    <div class="col-xs-12 text-center p_30_top_bottom">
-                        <a href="#">View customers stories <i class="fas fa-chevron-right font_size"></i></a>
-                    </div>
+    <!-- Secondo Slider -->
+    <section id="slider_2" class="bg_lgrey p_30_top_bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 p_30_top_bottom text-center">
+                    <h2 class="h2_big color_blue">Development teams love DigitalOcean</h2>
                 </div>
-            </div>
-        </section>
-        <!-- /Partners -->
-
-        <!-- Deploy -->
-        <section id="deploy">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 p_30_top_bottom text-center">
-                        <h2 class="h2_big color_blue">Deploy and scale seamlessly</h2>
-                        <p class="color_grey">Our optimized configuration process saves your team time when running and scaling
-                            distributed applications, AI &
-                            machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-offset-1 col-sm-3 h_400 border_left">
-                        <p>Deploy</p>
-                        <p>Manage</p>
-                        <p>Secure</p>
-                        <p>Scale</p>
-                        <p>Monitor</p>
-                    </div>
-                    <div class="col-xs-12 col-sm-8">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-6 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/kublogoicon.svg" alt="Cube">
-                                <p class="fw_600">Kubernetes in minutes</p>
-                                <p><small>Spin up a managed Kubernetes cluster in just a few clicks. Simply specify the size and
-                                        location of your worker nodes.</small></p>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/dropletinboxicon.svg" alt="Droplet">
-                                <p class="fw_600">Flexible compute types</p>
-                                <p><small>With Basic, General Purpose, CPU-Optimized or Memory-Optimized Droplets, you can
-                                        choose the right infrastructure for
-                                        your workload.</small></p>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/featured-AP-icon.svg" alt="Featured">
-                                <p class="fw_600">App Platform</p>
-                                <p><small>Build, deploy, and scale apps quickly using a simple, fully managed solution. We’ll
-                                        handle the infrastructure, app
-                                        runtimes, and dependencies, so that you can push code to production in just a few
-                                        clicks.</small></p>
-                            </div>
-                            <div class="col-xs-12 col-sm-6 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/stacksplusicon.svg" alt="Stack">
-                                <p class="fw_600">1-Click App Marketplace</p>
-                                <p><small>Quickly deploy projects using one of our preconfigured 1-Click Apps, like LAMP,
-                                        Docker, and WordPress.</small></p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Deploy -->
-
-        <!-- /Primo Slider -->
-        <section id="slider" class="bg_lgrey p_20_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 p_30_top_bottom text-center">
-                        <h2 class="h2_big color_blue">Designed for developers</h2>
-                        <p class="color_grey">Build more and spend less time managing your infrastructure with our easy-to-use
-                            control panel and API.</p>
-                    </div>
-                    <!-- Hidden XS  -->
-                    <div class="hidden-xs">
-                        <div class="col-sm-offset-2 col-sm-8">
-                            <div class="ms_slider">
-                                <i class="fas fa-chevron-left"></i>
-                                <img class="img_slider p_20_top_bottom" src="img/screenshot-create-droplet-12336b41.jpg" alt="">
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Hidden XS -->
-        
-                    <!-- Visible XS -->
-                    <div class="visible-xs-block">
-                        <div class="col-xs-offset-2 col-xs-8">
-                            <img class="img_slider_xs" src="img/screenshot-create-droplet-12336b41.jpg" alt="Slider Image">
-                        </div>
-                    </div>
-                    <!-- /Visible XS -->
-        
-                    <div class="col-xs-12 text-center">
-                        <p class="text_slider">
-                            Create computer servers in 55 seconds or less.
-                        </p>
-                        <p class="circle_slider">
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Primo Slider -->
-
-        <!-- Features -->
-        <section id="feature" class="p_20_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 p_30_top_bottom text-center">
-                        <h2 class="h2_big color_blue">Built for business</h2>
-                    </div>
-                    <div class="col-xs-12">
-                        <div class="row">
-                            <div class="col-xs-12 col-sm-4 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/kublogoicon.svg" alt="Cube">
-                                <p class="fw_600">Reliable platform</p>
-                                <p>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with
-                                    a 99.99% uptime SLA for
-                                    all services.</p>
-                                <a href="#">Security <i class="fas fa-chevron-right font_size"></i></a>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/dropletinboxicon.svg" alt="Droplet">
-                                <p class="fw_600">Predictable pricing</p>
-                                <p>Leave complex pricing structures behind. Always know what you’ll pay per month with a flat,
-                                    industry-leading pricing
-                                    structure.</p>
-                                <a href="#">Pricing <i class="fas fa-chevron-right font_size"></i></a>
-                            </div>
-                            <div class="col-xs-12 col-sm-4 p_15_top_bottom">
-                                <img class="m_bottom_10" src="img/featured-AP-icon.svg" alt="Featured">
-                                <p class="fw_600">World-class service</p>
-                                <p>Free around-the-clock technical support for all customers, with additional benefits for
-                                    premium support subscribers.
-                                    You’ll feel the love.</p>
-                                <a href="#">Support <i class="fas fa-chevron-right font_size"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Features -->
-
-        <!-- Regions -->
-        <section id="regions" class="bg_gradient p_50_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <h2 class="h2_big color_white text-center">Service your customers around the world from 12 regions.</h2>
-                    </div>
-                    <div class="col-xs-12 col-lg-6">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row  border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">AMS2</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Amsterdam, Netherlands</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">AMS3</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Amsterdam, Netherlands</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">BLR1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Bangalore, India</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">FRA1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Frankfurt, Germany</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">LON1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">London, UK</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row width_95">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">NYC1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">New York, USA</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-12 col-lg-6">
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row  border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">AMS2</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Amsterdam, Netherlands</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">AMS3</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Amsterdam, Netherlands</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">BLR1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Bangalore, India</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">FRA1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">Frankfurt, Germany</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row border_bottom">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">LON1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">London, UK</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-xs-12">
-                                <div class="row width_95">
-                                    <div class="col-xs-3">
-                                        <p class="upper_white">NYC1</p>
-                                    </div>
-                                    <div class="col-xs-6">
-                                        <p class="text_grey">New York, USA</p>
-                                    </div>
-                                    <div class="col-xs-3">
-                                        <a href="#">Test Speed <i class="fas fa-chevron-right font_size"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- /Regions -->
-
-        <!-- Secondo Slider -->
-        <section id="slider_2" class="bg_lgrey p_30_top_bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 p_30_top_bottom text-center">
-                        <h2 class="h2_big color_blue">Development teams love DigitalOcean</h2>
-                    </div>
-                    <!-- Hidden XS  -->
-                    <div class="hidden-xs">
-                        <div class="col-sm-offset-2 col-sm-8">
-                            <div class="ms_slider">
-                                <i class="fas fa-chevron-left"></i>
-                                <div class="slider_box p_50_top_bottom">
-                                    <img class="img_slider p_30_top_bottom" src="img/rockerbox-logo.png" alt="RockerBox">
-                                    <h3 class="color_dgrey p_20_left_right">"We have been able to make scaling the technical
-                                        infrastructure of our business cost effective and efficient."</h3>
-                                    <p class="p_slider_bold">Rick O'Toole</p>
-                                    <p class="p_slider_normal">Co-Founfer and CTO</p>
-                                    <a href="#">Read story <i class="fas fa-chevron-right font_size"></i></a>
-                                </div>
-                                <i class="fas fa-chevron-right"></i>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- /Hidden XS -->
-        
-                    <!-- Visible XS -->
-                    <div class="visible-xs-block text-center">
-                        <div class="col-xs-offset-2 col-xs-8">
-                            <div class="slider_box_xs p_50_top_bottom">
-                                <img class="img_slider_xs p_30_top_bottom" src="img/rockerbox-logo.png" alt="RockerBox">
+                <!-- Hidden XS  -->
+                <div class="hidden-xs">
+                    <div class="col-sm-offset-2 col-sm-8">
+                        <div class="ms_slider">
+                            <i class="fas fa-chevron-left"></i>
+                            <div class="slider_box p_50_top_bottom">
+                                <img class="img_slider p_30_top_bottom" src="img/rockerbox-logo.png" alt="RockerBox">
                                 <h3 class="color_dgrey p_20_left_right">"We have been able to make scaling the technical
-                                    infrastructure of our
-                                    business cost effective and efficient."</h3>
+                                    infrastructure of our business cost effective and efficient."</h3>
                                 <p class="p_slider_bold">Rick O'Toole</p>
                                 <p class="p_slider_normal">Co-Founfer and CTO</p>
                                 <a href="#">Read story <i class="fas fa-chevron-right font_size"></i></a>
                             </div>
+                            <i class="fas fa-chevron-right"></i>
                         </div>
                     </div>
-                    <!-- /Visible XS -->
-        
-                    <div class="col-xs-12 text-center">
-                        <p class="circle_slider">
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                            <i class="far fa-circle"></i>
-                        </p>
+                </div>
+                <!-- /Hidden XS -->
+    
+                <!-- Visible XS -->
+                <div class="visible-xs-block text-center">
+                    <div class="col-xs-offset-2 col-xs-8">
+                        <div class="slider_box_xs p_50_top_bottom">
+                            <img class="img_slider_xs p_30_top_bottom" src="img/rockerbox-logo.png" alt="RockerBox">
+                            <h3 class="color_dgrey p_20_left_right">"We have been able to make scaling the technical
+                                infrastructure of our
+                                business cost effective and efficient."</h3>
+                            <p class="p_slider_bold">Rick O'Toole</p>
+                            <p class="p_slider_normal">Co-Founfer and CTO</p>
+                            <a href="#">Read story <i class="fas fa-chevron-right font_size"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- /Visible XS -->
+    
+                <div class="col-xs-12 text-center">
+                    <p class="circle_slider">
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                        <i class="far fa-circle"></i>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- /Secondo Slider -->
+
+    <!-- Footer -->
+    <footer>
+        <!-- /Footer Top -->
+        <section id="footer_top" class="bg_gradient p_50_top_bottom">
+            <div class="row text-center">
+                <div class="col-xs-12">
+                    <h2 class="color_white p_20_top_bottom">
+                        Get started now.
+                    </h2>
+                    <p>
+                        <button type="button" class="btn btn-default btn-lg btn_footer">Create your account</button>
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+    
+        <!-- Footer Bottom -->
+        <section id="footer_bottom" class="bg_blue p_50_top_bottom">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-md-4">
+                        <img class="logo_small" src="img/logo-small.svg" alt="Logo Small">
+                        <p class="color_lgrey fw_600">@ 2018 DigitalOcean, LLC. All right reserved.<br> <span
+                                class="color_dgrey">Proudly made in NY</span></p>
+                        <div class="social_icon">
+                            <a class="color_lgrey" href="#"><i class="fab fa-twitter-square"></i></a>
+                            <a class="color_lgrey" href="#"><i class="fab fa-facebook-square"></i></a>
+                            <a class="color_lgrey" href="#"><i class="fab fa-instagram-square"></i></a>
+                            <a class="color_lgrey" href="#"><i class="fab fa-youtube-square"></i></a>
+                            <a class="color_lgrey" href="#"><i class="fab fa-linkedin"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
+                        <ul>
+                            <li class="ms_bold">Company</li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Leadership</a></li>
+                            <li><a href="#">Link</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Careers</a></li>
+                            <li><a href="#">Partners Network</a></li>
+                            <li><a href="#">Referral Program</a></li>
+                            <li><a href="#">Events</a></li>
+                            <li><a href="#">Press</a></li>
+                            <li><a href="#">Legal &amp; Security</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
+                        <ul>
+                            <li class="ms_bold">Products</li>
+                            <li><a href="#">Droplets</a></li>
+                            <li><a href="#">Spaces</a></li>
+                            <li><a href="#">Kubernetes</a></li>
+                            <li><a href="#">Load Balancers</a></li>
+                            <li><a href="#">Block Storage</a></li>
+                            <li><a href="#">Tool &amp; Integrations</a></li>
+                            <li><a href="#">One-Click Apps</a></li>
+                            <li><a href="#">API</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Documentation</a></li>
+                            <li><a href="#">Releases Notes</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
+                        <ul>
+                            <li class="ms_bold">Community</li>
+                            <li><a href="#">Tutorials</a></li>
+                            <li><a href="#">Meetups</a></li>
+                            <li><a href="#">Q&amp;A</a></li>
+                            <li><a href="#">Write for Donations</a></li>
+                            <li><a href="#">Droplets for Demons</a></li>
+                            <li><a href="#">Hatch</a></li>
+                            <li><a href="#">Shop Swag</a></li>
+                            <li><a href="#">Research Program</a></li>
+                            <li><a href="#">Currents Research</a></li>
+                            <li><a href="#">Open Source</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
+                        <ul>
+                            <li class="ms_bold">Support</li>
+                            <li><a href="#">Contact Support</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">Network Status</a></li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /Footer Bottom -->
+    
+    </footer>
+    
+    <!-- /Footer -->
 
-        <!-- /Secondo Slider -->
-
-        <!-- Footer -->
-        <footer>
-            <!-- /Footer Top -->
-            <section id="footer_top" class="bg_gradient p_50_top_bottom">
-                <div class="row text-center">
-                    <div class="col-xs-12">
-                        <h2 class="color_white p_20_top_bottom">
-                            Get started now.
-                        </h2>
-                        <p>
-                            <button type="button" class="btn btn-default btn-lg btn_footer">Create your account</button>
-                        </p>
-                    </div>
-                </div>
-            </section>
-        
-        
-            <!-- Footer Bottom -->
-            <section id="footer_bottom" class="bg_blue p_50_top_bottom">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-xs-12 col-md-4">
-                            <img class="logo_small" src="img/logo-small.svg" alt="Logo Small">
-                            <p class="color_lgrey fw_600">@ 2018 DigitalOcean, LLC. All right reserved.<br> <span
-                                    class="color_dgrey">Proudly made in NY</span></p>
-                            <div class="social_icon">
-                                <a class="color_lgrey" href="#"><i class="fab fa-twitter-square"></i></a>
-                                <a class="color_lgrey" href="#"><i class="fab fa-facebook-square"></i></a>
-                                <a class="color_lgrey" href="#"><i class="fab fa-instagram-square"></i></a>
-                                <a class="color_lgrey" href="#"><i class="fab fa-youtube-square"></i></a>
-                                <a class="color_lgrey" href="#"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
-                            <ul>
-                                <li class="ms_bold">Company</li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Leadership</a></li>
-                                <li><a href="#">Link</a></li>
-                                <li><a href="#">Blog</a></li>
-                                <li><a href="#">Careers</a></li>
-                                <li><a href="#">Partners Network</a></li>
-                                <li><a href="#">Referral Program</a></li>
-                                <li><a href="#">Events</a></li>
-                                <li><a href="#">Press</a></li>
-                                <li><a href="#">Legal &amp; Security</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
-                            <ul>
-                                <li class="ms_bold">Products</li>
-                                <li><a href="#">Droplets</a></li>
-                                <li><a href="#">Spaces</a></li>
-                                <li><a href="#">Kubernetes</a></li>
-                                <li><a href="#">Load Balancers</a></li>
-                                <li><a href="#">Block Storage</a></li>
-                                <li><a href="#">Tool &amp; Integrations</a></li>
-                                <li><a href="#">One-Click Apps</a></li>
-                                <li><a href="#">API</a></li>
-                                <li><a href="#">Pricing</a></li>
-                                <li><a href="#">Documentation</a></li>
-                                <li><a href="#">Releases Notes</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
-                            <ul>
-                                <li class="ms_bold">Community</li>
-                                <li><a href="#">Tutorials</a></li>
-                                <li><a href="#">Meetups</a></li>
-                                <li><a href="#">Q&amp;A</a></li>
-                                <li><a href="#">Write for Donations</a></li>
-                                <li><a href="#">Droplets for Demons</a></li>
-                                <li><a href="#">Hatch</a></li>
-                                <li><a href="#">Shop Swag</a></li>
-                                <li><a href="#">Research Program</a></li>
-                                <li><a href="#">Currents Research</a></li>
-                                <li><a href="#">Open Source</a></li>
-                            </ul>
-                        </div>
-                        <div class="col-xs-12 col-sm-6 col-md-2 p_20_top_bottom">
-                            <ul>
-                                <li class="ms_bold">Support</li>
-                                <li><a href="#">Contact Support</a></li>
-                                <li><a href="#">FAQ</a></li>
-                                <li><a href="#">Network Status</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <!-- /Footer Bottom -->
-        
-        </footer>
-        
-        <!-- /Footer -->
-
-
+    <!-- Fixed Shark -->
+    <div class="ms_shark visible-md-block visible-lg-block">
+        <p class="ms_cloud">Can I help answer any questions you have about DigitalOcean?</p>
+        <i class="fas fa-caret-right fixed_fas"></i>
+        <img class="shark_bg" src="img/shark.png" alt="shark">
+        <p class="fixed_badge">2</p>
+    </div>
+    
+    <div class="ms_shark_xs hidden-md hidden-lg">
+        <p class="ms_cloud_xs">Can I help answer any questions you have about DigitalOcean?</p>
+        <i class="fas fa-caret-down fixed_fas_xs"></i>
+        <img class="shark_bg_xs" src="img/shark.png" alt="shark">
+        <p class="fixed_badge_xs">2</p>
+    </div>
+    
+    <!-- /Fixed Shark -->
 </body>
 </html>
