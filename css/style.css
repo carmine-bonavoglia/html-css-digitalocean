@@ -339,3 +339,35 @@
     font-size: 1.3em;
 }
 /* /Sliders */
+
+/* Regions */
+.border_bottom{
+    border-bottom: 1px solid white;
+    width: 95%;
+    padding-top: 5px;
+}
+
+.width_95{
+    width: 95%;
+    padding-top: 5px;
+}
+
+.upper_white{
+    color: white;
+    text-transform: uppercase;
+}
+
+.text_grey{
+    color: #98a2b7;
+}
+
+#regions .row a{
+    color: #00d7d2;
+    padding: 5px 0;
+}
+
+#regions .row a:hover{
+    color: #006aff;
+    text-decoration: none;
+}
+/* /Regions */
