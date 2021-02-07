@@ -262,3 +262,80 @@
 
 
 /* /Deploy */
+
+/* Sliders */
+.fa-chevron-left,
+.fa-chevron-right{
+    height: 100%;
+    line-height: 100%;
+    font-size: 30px;
+    padding: 0 20px;
+    vertical-align: middle;
+}
+
+.fa-chevron-left:hover,
+.fa-chevron-left:active,
+.fa-chevron-left:focus,
+.fa-chevron-right:hover,
+.fa-chevron-right:active,
+.fa-chevron-right:focus{
+    color: #0069FF;
+}
+
+.ms_slider{
+    display: inline;
+    text-align: center;
+}
+
+.img_slider{
+    width: calc(100% - 126px);
+}
+
+.img_slider_xs{
+    width: 100%;
+}
+
+#slider .row .circle_slider i,
+#slider_2 .row .circle_slider i{
+    color: #0069FF;
+    font-size: 0.5em;
+    border-radius: 50%;
+}
+
+.circle_slider i:hover,
+.circle_slider i:active,
+.circle_slider i:focus{
+    background-color:#0069FF;
+    color: white;
+}
+
+#slider .row p.text_slider,
+#slider_2 .row p.text_slider{
+    font-size: 1.3em;
+    color: #031c4e;
+}
+
+.slider_box{
+    width: calc(100% - 126px);
+    background-color: white;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.slider_box_xs{
+    width: 100%;
+    background-color: white;
+    border-radius: 5px;
+}
+
+#slider_2 .row .p_slider_bold{
+    font-size: 1.3em;
+    font-weight: 600;
+    padding-top: 30px;
+}
+
+#slider_2 .row .p_slider_normal{
+    font-size: 1.3em;
+}
+/* /Sliders */
