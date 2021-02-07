@@ -1,0 +1,195 @@
+/* Debug */
+
+.ms_debug [class*="col-"] {
+    background-color: rgba(255, 127, 80, 0.5);
+    border: 1px solid black;
+    height: 100px;
+}
+
+.ms_debug .h_150{
+    height: 150px;
+}
+
+.ms_debug .h_200{
+    height: 200px;
+}
+
+.ms_debug .h_300{
+    height: 300px;
+}
+
+.ms_debug .h_400{
+    height: 400px;
+}
+
+.ms_debug .h_500{
+    height: 500px;
+}
+
+.ms_debug .h_600{
+    height: 600px;
+}
+
+.p_10_top_bottom{
+    padding: 10px;
+}
+
+.p_15_top_bottom{
+    padding: 15px;
+}
+
+.p_20_top_bottom{
+    padding: 20px 0;
+}
+
+.p_30_top_bottom{
+    padding: 30px;
+}
+
+.p_50_top_bottom{
+    padding: 50px 0;
+}
+
+.p_20_left_right{
+    padding: 0 20px;
+}
+
+.m_70_top{
+    margin-top: 70px;
+}
+
+.m_20_top{
+    margin-top: 20px;
+}
+
+.m_20_bottom{
+    margin-top: 20px;
+}
+
+.m_bottom_10{
+    margin-bottom: 15px;
+}
+/* /Debug */
+
+
+/* Classi riutilizzabili */
+.bg_lgrey{
+    background-color: #f3f5f9;
+}
+
+.bg_blue{
+    background-color: #031c4e;
+}
+
+.bg_gradient{
+    background-image: linear-gradient(#0048c5, #001e9a);
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.row .color_lblue{
+    color: #006aff;
+}
+
+.row .color_blue{
+    color:#031c4e;
+}
+
+.row .color_grey{
+    color: #586686;
+}
+
+.row .color_dgrey{
+    color: #5c6a88;
+}
+
+.row .color_lgrey{
+    color: #7a859d;
+}
+
+.row h1,
+.row h2{
+    color: white;
+}
+
+.row h2{
+    font-weight: 600;
+}
+
+.row .fw_600{
+    font-weight: 600;
+}
+
+.row .h2_big{
+    font-size: 2.8em;
+}
+
+.row .font_size{
+    font-size: 0.9em;
+    padding: 0 5px;
+}
+
+#deploy .row p,
+#slider .row p,
+#slider_2 .row p{
+    font-size: 1.5em;
+}
+
+.row h3{
+    color:#bbcdff;
+    font-size: 1.7em;
+}
+
+.row h1{
+    font-weight: 600;
+    font-size: 4.3em;
+}
+
+/* /Classi riutilizzabili */
+
+/* Header */
+.ms_navbar{
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+}
+
+.ms_nav_logo img{
+    height: 30px;
+}
+
+.ms_link li a{
+    color: #031c4e;
+    font-weight: 600;
+}
+
+.ms_link li a:hover{
+    color: #0069ff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.burg_menu i{
+    line-height: 70px;
+    cursor: pointer;
+    opacity: 0.8;
+    color: #0069FF;
+    font-size: 1.6em;
+}
+
+.btn_white{
+    color: #0069FF;
+    border:1px solid #0069FF;
+    background: #fff;
+}
+
+.btn_white:hover{
+    color: #0069FF;
+    border:1px solid #0069FF;
+    background: #fff;
+}
+
+/* /Header */
